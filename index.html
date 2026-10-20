@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090a09">
+  <meta name="description" content="COMECODE is an independent digital studio creating distinctive websites and digital experiences.">
+  <title>COMECODE — Digital Experiences</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient-glow" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="COMECODE home">COME<span>CODE</span><sup>®</sup></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <a href="#services">Services</a>
+      <a href="#work">Our Work</a>
+      <a href="#about">About</a>
+      <a class="nav-cta" href="#contact">Let's Talk <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero section reveal">
+      <p class="eyebrow"><span class="status-dot"></span> INDEPENDENT DIGITAL STUDIO</p>
+      <h1>We make the internet<br>feel <span class="accent">different.</span></h1>
+      <div class="hero-bottom">
+        <p>Distinctive websites for ideas that deserve<br class="desktop-only"> to be noticed.</p>
+        <a class="round-link" href="#work" aria-label="Explore our work">↓</a>
+      </div>
+      <div class="hero-line"><span>DESIGN WITH INTENT</span><span>BUILT FOR IMPACT</span><span>© COMECODE 2026</span></div>
+    </section>
+
+    <section class="section services-section reveal" id="services">
+      <div class="section-heading">
+        <p class="eyebrow">01 / WHAT WE DO</p>
+        <h2>Good ideas deserve<br><span class="muted">great digital homes.</span></h2>
+      </div>
+      <div class="service-grid">
+        <article class="service-card"><span class="service-number">01</span><div><h3>Web Design</h3><p>Clear, confident visual systems that make your brand feel unmistakably yours.</p></div><span class="service-arrow">↗</span></article>
+        <article class="service-card"><span class="service-number">02</span><div><h3>Web Development</h3><p>Responsive, thoughtfully built websites that work beautifully across devices.</p></div><span class="service-arrow">↗</span></article>
+        <article class="service-card"><span class="service-number">03</span><div><h3>Brand Experiences</h3><p>Digital details, motion and interactions that turn a visit into a feeling.</p></div><span class="service-arrow">↗</span></article>
+      </div>
+    </section>
+
+    <section class="section work-section reveal" id="work">
+      <div class="section-heading work-heading">
+        <div><p class="eyebrow">02 / SELECTED CONCEPTS</p><h2>Small ideas.<br><span class="muted">Big energy.</span></h2></div>
+        <p class="section-note">Explore our concept projects.<br>Tap a card to open its preview.</p>
+      </div>
+      <div class="project-grid">
+        <button class="project-card project-nova" type="button" data-project="nova" aria-label="Open NOVA concept preview">
+          <span class="project-top"><span>01 / DIGITAL CULTURE</span><span class="project-open">↗</span></span>
+          <span class="mini-art nova-art" aria-hidden="true"><span class="nova-orb"></span><span class="orbit orbit-one"></span><span class="orbit orbit-two"></span><span class="art-label">A NEW KIND<br>OF SIGNAL.</span></span>
+          <span class="project-bottom"><span><strong>NOVA®</strong><small>Culture / Editorial</small></span><span class="project-arrow">View concept ↗</span></span>
+        </button>
+        <button class="project-card project-velocity" type="button" data-project="velocity" aria-label="Open VELOCITY concept preview">
+          <span class="project-top"><span>02 / PERFORMANCE</span><span class="project-open">↗</span></span>
+          <span class="mini-art velocity-art" aria-hidden="true"><span class="speed-ring ring-one"></span><span class="speed-ring ring-two"></span><span class="speed-ring ring-three"></span><span class="velocity-word">MOVE<br>WITHOUT<br>LIMITS.</span></span>
+          <span class="project-bottom"><span><strong>VELOCITY</strong><small>Sport / Performance</small></span><span class="project-arrow">View concept ↗</span></span>
+        </button>
+        <button class="project-card project-nexora" type="button" data-project="nexora" aria-label="Open nexora concept preview">
+          <span class="project-top"><span>03 / FUTURE LIVING</span><span class="project-open">↗</span></span>
+          <span class="mini-art nexora-art" aria-hidden="true"><span class="nexora-planet"></span><span class="planet-glow"></span><span class="nexora-word">A little<br>closer to<br>tomorrow.</span></span>
+          <span class="project-bottom"><span><strong>nexora.</strong><small>Technology / Lifestyle</small></span><span class="project-arrow">View concept ↗</span></span>
+        </button>
+      </div>
+    </section>
+
+    <section class="section about-section reveal" id="about">
+      <div class="section-heading"><p class="eyebrow">03 / HOW WE THINK</p><h2>Less noise.<br><span class="muted">More meaning.</span></h2></div>
+      <div class="about-copy"><p class="about-lead">We believe a website should do more than look good. It should make people <span class="accent">feel something</span>, understand something, and want to take the next step.</p><div class="process-grid"><article><span>01</span><h3>Listen closely.</h3><p>We start with your idea, your audience and what makes you different.</p></article><article><span>02</span><h3>Make it matter.</h3><p>We turn the strategy into a clear design with a point of view.</p></article><article><span>03</span><h3>Build it right.</h3><p>We bring it to life with responsive layouts and purposeful interactions.</p></article></div></div>
+    </section>
+
+    <section class="section contact-section reveal" id="contact">
+      <p class="eyebrow">04 / HAVE A GOOD ONE?</p>
+      <div class="contact-intro"><h2>Let's make<br>something <span class="accent">real.</span></h2><p>Have a project, a question, or just an idea in your notes app? Tell us about it.</p></div>
+      <
+<form class="contact-form" id="inquiry-form"
+      action="https://formsubmit.co/comecode.studio@gmail.com"
+      method="POST">
+
+        <div class="form-row"><label>Your name<input type="text" name="name" autocomplete="name" placeholder="What should we call you?" required></label><label>Your email<input type="email" name="email" autocomplete="email" placeholder="you@example.com" required></label></div>
+        <div class="form-row"><label>Project type<select name="projectType" required><option value="">Choose one</option><option>Website design</option><option>Website development</option><option>Brand experience</option><option>Something else</option></select></label><label>Estimated budget<select name="budget" required><option value="">Choose a range</option><option>Under ₹5,000</option><option>₹5,000–₹15,000</option><option>₹15,000–₹30,000</option><option>Let's discuss</option></select></label></div>
+        <label>Tell us about your idea<textarea name="details" rows="4" placeholder="A little about what you have in mind..." required></textarea></label>
+        <button class="submit-button" type="submit">Send project inquiry <span>↗</span></button>
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+      <p class="contact-footnote">This demo form opens your email app; it does not store submissions online.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="brand" href="#home">COME<span>CODE</span><sup>®</sup></a><p>Independent by nature. Digital by design.</p><a href="#home">Back to top ↑</a><small>© COMECODE 2026</small></footer>
+
+  <div class="concept-modal" id="conceptModal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Project concept preview">
+    <button class="modal-backdrop" type="button" data-close-modal aria-label="Close preview"></button>
+    <div class="browser-window">
+      <div class="browser-bar"><div class="browser-controls"><button type="button" data-close-modal aria-label="Close preview" class="browser-dot close-dot"></button><span class="browser-dot"></span><span class="browser-dot"></span></div><div class="browser-address" id="browserAddress">comecode.studio / concept</div><button class="concept-close" type="button" data-close-modal aria-label="Close preview">✕</button></div>
+      <section class="concept-screen concept-nova" data-screen="nova" hidden>
+        <nav class="concept-nav"><a href="#" class="concept-logo" data-home>NOVA<span>®</span></a><div><a href="#nova-story" data-learn>STORY</a><a href="#nova-story" data-learn>JOURNAL</a><button type="button" data-contact>LET'S TALK ↗</button></div></nav>
+        <div class="concept-hero nova-preview-hero"><p class="preview-eyebrow">CULTURE IS ALWAYS IN MOTION</p><h2>Find your<br><span>next frequency.</span></h2><p class="preview-copy">A platform for the curious, the creative, and the ones tuning into what's next.</p><button type="button" class="preview-cta" data-learn>Explore the signal ↓</button><div class="preview-orb"><span></span></div><div class="preview-index">N° 001 — NEW WAVE</div></div>
+        <div class="concept-details" id="nova-story"><p class="preview-eyebrow">ABOUT NOVA</p><h3>For what's<br>coming next.</h3><p>NOVA is a fictional culture and editorial concept built around fresh ideas, emerging voices, and the energy of what's next.</p><button type="button" class="preview-cta" data-contact>Start a project ↗</button></div>
+      </section>
+      <section class="concept-screen concept-velocity" data-screen="velocity" hidden>
+        <nav class="concept-nav"><a href="#" class="concept-logo" data-home>V<span>/</span>LOCITY</a><div><a href="#velocity-story" data-learn>OUR DRIVE</a><a href="#velocity-story" data-learn>TECH</a><button type="button" data-contact>GET IN TOUCH ↗</button></div></nav>
+        <div class="concept-hero velocity-preview-hero"><p class="preview-eyebrow">ENGINEERED TO MOVE</p><h2>Move without<br><span>limits.</span></h2><p class="preview-copy">Performance-inspired design for people who never stay in one lane.</p><button type="button" class="preview-cta" data-learn>Discover the drive ↓</button><div class="velocity-lines"></div><div class="preview-index">BUILT FOR THE NEXT MILE</div></div>
+        <div class="concept-details" id="velocity-story"><p class="preview-eyebrow">THE VELOCITY MINDSET</p><h3>Momentum<br>is a choice.</h3><p>VELOCITY is a fictional performance brand concept focused on movement, precision, and forward energy.</p><button type="button" class="preview-cta" data-contact>Build your vision ↗</button></div>
+      </section>
+      <section class="concept-screen concept-nexora" data-screen="nexora" hidden>
+        <nav class="concept-nav"><a href="#" class="concept-logo" data-home>nexora<span>.</span></a><div><a href="#nexora-story" data-learn>VISION</a><a href="#nexora-story" data-learn>SPACES</a><button type="button" data-contact>CONNECT ↗</button></div></nav>
+        <div class="concept-hero nexora-preview-hero"><p class="preview-eyebrow">A MORE HUMAN FUTURE</p><h2>A little closer<br>to <span>tomorrow.</span></h2><p class="preview-copy">Thoughtful technology and calmer spaces for the way we want to live.</p><button type="button" class="preview-cta" data-learn>See the vision ↓</button><div class="nexora-moon"></div><div class="preview-index">IMAGINING BETTER EVERYDAY</div></div>
+        <div class="concept-details" id="nexora-story"><p class="preview-eyebrow">THE NEXORA IDEA</p><h3>Technology<br>with a pulse.</h3><p>nexora is a fictional future-living concept exploring the intersection of thoughtful technology, comfort, and everyday life.</p><button type="button" class="preview-cta" data-contact>Make it real ↗</button></div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
