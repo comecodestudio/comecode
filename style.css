@@ -15,3 +15,10 @@
 .footer-logo > span:last-child {
   color: #FFFFFF;
 }
+.footer-logo .logo-green {
+  color: #7CFF00 !important;
+}
+
+.footer-logo > span:last-child {
+  color: #FFFFFF !important;
+}
