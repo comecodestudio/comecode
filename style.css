@@ -22,3 +22,27 @@
 .footer-logo > span:last-child {
   color: #FFFFFF !important;
 }
+.footer-logo {
+  display: inline-flex !important;
+  align-items: baseline;
+  color: #ffffff;
+  font-size: 56px !important;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.footer-logo .logo-white {
+  color: #ffffff !important;
+  font-size: inherit !important;
+}
+
+.footer-logo .logo-green {
+  color: #7cff00 !important;
+  font-size: inherit !important;
+}
+
+.footer-logo sup {
+  color: #ffffff !important;
+  font-size: 12px !important;
+  align-self: flex-start;
+}
