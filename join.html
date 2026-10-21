@@ -1,0 +1,321 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050505">
+  <meta name="description" content="Apply to join COMECODE Studio's creative and development community.">
+  <title>Join Our Team | COMECODE Studio</title>
+  <style>
+    :root {
+      --bg: #050505;
+      --panel: #101210;
+      --green: #b7ff35;
+      --white: #f5f5f5;
+      --muted: #a3a79f;
+      --border: #292d27;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--white);
+      font-family: Inter, Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    a { color: var(--green); text-decoration: none; }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 22px 7%;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .brand {
+      font-size: 20px;
+      font-weight: 900;
+      letter-spacing: -0.8px;
+    }
+
+    .brand span { color: var(--green); }
+
+    .nav a.back {
+      color: var(--white);
+      font-size: 14px;
+    }
+
+    .hero {
+      max-width: 850px;
+      margin: auto;
+      padding: 75px 24px 35px;
+      text-align: center;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      padding: 6px 13px;
+      border: 1px solid #3c5224;
+      border-radius: 30px;
+      color: var(--green);
+      font-size: 11px;
+      letter-spacing: 2px;
+      font-weight: 700;
+    }
+
+    h1 {
+      margin: 20px 0 12px;
+      font-size: clamp(38px, 7vw, 66px);
+      line-height: 1.08;
+      letter-spacing: -2px;
+    }
+
+    h1 span { color: var(--green); }
+
+    .hero p {
+      max-width: 600px;
+      margin: 0 auto;
+      color: var(--muted);
+    }
+
+    .form-wrap {
+      max-width: 720px;
+      margin: 15px auto 80px;
+      padding: 0 20px;
+    }
+
+    form {
+      padding: clamp(22px, 5vw, 42px);
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+    }
+
+    .form-heading {
+      margin: 0 0 6px;
+      font-size: 24px;
+    }
+
+    .note {
+      margin: 0 0 28px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .field { margin-bottom: 20px; }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    input, select, textarea {
+      display: block;
+      width: 100%;
+      padding: 13px 14px;
+      color: var(--white);
+      background: #080908;
+      border: 1px solid #353a32;
+      border-radius: 8px;
+      font: inherit;
+      font-size: 14px;
+      outline: none;
+    }
+
+    input:focus, select:focus, textarea:focus {
+      border-color: var(--green);
+      box-shadow: 0 0 0 2px #b7ff3520;
+    }
+
+    select option { background: #101210; }
+    textarea { min-height: 120px; resize: vertical; }
+    input::placeholder, textarea::placeholder { color: #73786f; }
+
+    .required { color: var(--green); }
+
+    .consent {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      margin: 5px 0 22px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .consent input {
+      width: 17px;
+      height: 17px;
+      margin-top: 3px;
+      accent-color: var(--green);
+    }
+
+    button {
+      width: 100%;
+      padding: 15px;
+      color: #080908;
+      background: var(--green);
+      border: 0;
+      border-radius: 8px;
+      font-weight: 900;
+      font-size: 15px;
+      cursor: pointer;
+    }
+
+    button:hover { background: #c8ff6c; }
+
+    .form-status {
+      margin-top: 16px;
+      font-size: 14px;
+      overflow-wrap: anywhere;
+    }
+
+    footer {
+      padding: 28px 20px;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      color: var(--muted);
+      font-size: 12px;
+      letter-spacing: 1px;
+    }
+
+    @media (max-width: 560px) {
+      .grid { grid-template-columns: 1fr; gap: 0; }
+      .hero { padding-top: 55px; }
+      h1 { letter-spacing: -1px; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <a class="brand" href="./index.html">COME<span>CODE</span></a>
+    <a class="back" href="./index.html">← Back to website</a>
+  </nav>
+
+  <header class="hero">
+    <div class="eyebrow">YOUR NEXT CHAPTER STARTS HERE</div>
+    <h1>Build something<br><span>that matters.</span></h1>
+    <p>
+      Join the COMECODE Studio community. Connect with creative minds,
+      develop your skills, and collaborate on digital projects.
+    </p>
+  </header>
+
+  <main class="form-wrap">
+    <form id="application-form">
+      <h2 class="form-heading">Join Our Team</h2>
+      <p class="note">
+        Tell us about yourself. Fields marked <span class="required">*</span>
+        are required.
+      </p>
+
+      <div class="grid">
+        <div class="field">
+          <label for="name">Full name <span class="required">*</span></label>
+          <input id="name" name="name" required maxlength="100"
+            autocomplete="name" placeholder="Your full name">
+        </div>
+
+        <div class="field">
+          <label for="email">Email address <span class="required">*</span></label>
+          <input id="email" name="email" type="email" required maxlength="254"
+            autocomplete="email" placeholder="you@example.com">
+        </div>
+      </div>
+
+      <div class="grid">
+        <div class="field">
+          <label for="role">Preferred role <span class="required">*</span></label>
+          <select id="role" name="role" required>
+            <option value="">Choose your role</option>
+            <option>Frontend Developer</option>
+            <option>Backend Developer</option>
+            <option>Full-Stack Developer</option>
+            <option>UI/UX Designer</option>
+            <option>Graphic Designer</option>
+            <option>Content Creator</option>
+            <option>Marketing & Social Media</option>
+            <option>Open to different roles</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="experience">Experience level <span class="required">*</span></label>
+          <select id="experience" name="experience" required>
+            <option value="">Choose your level</option>
+            <option>Beginner / Learning</option>
+            <option>Some personal projects</option>
+            <option>Experienced</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="skills">Skills and tools <span class="required">*</span></label>
+        <input id="skills" name="skills" required maxlength="500"
+          placeholder="e.g. HTML, CSS, JavaScript, Figma">
+      </div>
+
+      <div class="field">
+        <label for="portfolio">Portfolio, GitHub or project link (optional)</label>
+        <input id="portfolio" name="portfolio" type="url" maxlength="500"
+          placeholder="https://...">
+      </div>
+
+      <div class="field">
+        <label for="motivation">Why do you want to join? <span class="required">*</span></label>
+        <textarea id="motivation" name="motivation" required maxlength="2000"
+          placeholder="Tell us what interests you and what you'd bring to the team."></textarea>
+      </div>
+
+      <div class="field">
+        <label for="availability">Your availability <span class="required">*</span></label>
+        <select id="availability" name="availability" required>
+          <option value="">Choose your availability</option>
+          <option>1–3 hours per week</option>
+          <option>4–7 hours per week</option>
+          <option>8+ hours per week</option>
+          <option>Flexible</option>
+        </select>
+      </div>
+
+      <label class="consent">
+        <input type="checkbox" name="consent" required>
+        <span>I agree that COMECODE Studio may use the information I provide
+          to review my application and contact me about joining the team.</span>
+      </label>
+
+      <button type="submit">Submit Application ↗</button>
+      <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+    </form>
+  </main>
+
+  <footer>
+    COMECODE STUDIO · YOUR VISION. OUR CODE.
+  </footer>
+
+  <script>
+    const form = document.getElementById("application-form");
+    const status = document.getElementById("form-status");
+
+    form.addEventListener("submit", function (event) {
+      event.preventDefault();
+      status.textContent =
+        "The application system is not connected yet. Please check back soon.";
+      status.style.color = "#b7ff35";
+    });
+  </script>
+</body>
+</html>
