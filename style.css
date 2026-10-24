@@ -15,3 +15,54 @@
 .footer-logo > span:last-child {
   color: #FFFFFF;
 }
+/* COMECODE Founder Section */
+.founder-section {
+  background: #000;
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.founder-content {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.founder-label {
+  color: #39ff14;
+  font-size: 12px;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+
+.founder-section h2 {
+  font-size: 36px;
+  margin: 16px 0;
+}
+
+.founder-section h3 {
+  font-size: 28px;
+  margin: 20px 0 8px;
+}
+
+.founder-role {
+  color: #39ff14;
+  font-weight: 600;
+}
+
+.founder-description {
+  color: #c7c7c7;
+  line-height: 1.8;
+  margin: 24px auto;
+}
+
+.founder-link {
+  display: inline-block;
+  color: #39ff14;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.founder-link:hover {
+  text-decoration: underline;
+}
